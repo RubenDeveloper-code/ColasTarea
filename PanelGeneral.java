@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package unidat3.colas;
-
+//Puta madre don gato me quiero matar
 /**
  *
  * @author ruben
@@ -32,8 +32,8 @@ public class PanelGeneral extends javax.swing.JFrame {
         informes = new javax.swing.JTextField();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -48,13 +48,21 @@ public class PanelGeneral extends javax.swing.JFrame {
             .addGap(0, 245, Short.MAX_VALUE)
         );
 
-        jMenu1.setText("Formulario Pedido");
+        jMenu1.setText("Añadir Orden");
         jMenu1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jMenu1MouseClicked(evt);
             }
         });
         jMenuBar1.add(jMenu1);
+
+        jMenu4.setText("Atender");
+        jMenu4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jMenu4MouseClicked(evt);
+            }
+        });
+        jMenuBar1.add(jMenu4);
 
         jMenu3.setText("Reporte");
         jMenu3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -63,14 +71,6 @@ public class PanelGeneral extends javax.swing.JFrame {
             }
         });
         jMenuBar1.add(jMenu3);
-
-        jMenu4.setText("Eliminar");
-        jMenu4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jMenu4MouseClicked(evt);
-            }
-        });
-        jMenuBar1.add(jMenu4);
 
         setJMenuBar(jMenuBar1);
 
@@ -112,7 +112,9 @@ public class PanelGeneral extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenu3MouseClicked
 
     private void jMenu4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu4MouseClicked
-        informes.setText(cola.eliminarDeCola());
+         FormAtenderOrden form = new FormAtenderOrden(cola);
+        pantaia.add(form);
+        form.setVisible(true);
     }//GEN-LAST:event_jMenu4MouseClicked
 
     /**

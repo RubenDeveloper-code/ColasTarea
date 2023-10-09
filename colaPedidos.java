@@ -27,6 +27,14 @@ public class colaPedidos {
             return "Cola llena";
         }
     }
+    public String atenderEnCola(int orden[]) {
+        cola[frente].setOrden(orden);
+        cola[frente].calcularTotal();
+        String tt = cola[frente].getTotal()+"";
+        eliminarDeCola();
+        return tt;
+
+    }
     public String eliminarDeCola() {
         if(!colaVacia()) {
             for(int i = 1; i < fin; i++) {

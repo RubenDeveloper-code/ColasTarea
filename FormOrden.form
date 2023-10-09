@@ -23,28 +23,9 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="nombref" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
                           <Component id="nclientef" alignment="0" min="-2" pref="151" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jSpinner1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jSpinner3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jSpinner2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jSpinner4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jSpinner5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jSpinner6" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel1" min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" min="-2" pref="41" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel5" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
                       </Group>
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
@@ -68,37 +49,7 @@
               <Component id="nombref" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="nclientef" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel1" alignment="3" max="32767" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jSpinner2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jSpinner3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jSpinner4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jSpinner5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jSpinner6" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnregresar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -125,48 +76,6 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nclientefActionPerformed"/>
       </Events>
-    </Component>
-    <Component class="javax.swing.JSpinner" name="jSpinner1">
-    </Component>
-    <Component class="javax.swing.JSpinner" name="jSpinner2">
-    </Component>
-    <Component class="javax.swing.JSpinner" name="jSpinner3">
-    </Component>
-    <Component class="javax.swing.JSpinner" name="jSpinner4">
-    </Component>
-    <Component class="javax.swing.JSpinner" name="jSpinner5">
-    </Component>
-    <Component class="javax.swing.JSpinner" name="jSpinner6">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Tacos"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Sopes"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Pambasos"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Tostadas"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Flautas"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel6">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Quesadillas"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
