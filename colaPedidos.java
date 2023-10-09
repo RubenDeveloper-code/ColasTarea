@@ -28,6 +28,7 @@ public class colaPedidos {
         }
     }
     public String atenderEnCola(int orden[]) {
+        if(colaVacia())return "Sin ordenes pendientes";
         cola[frente].setOrden(orden);
         cola[frente].calcularTotal();
         String tt = cola[frente].getTotal()+"";
